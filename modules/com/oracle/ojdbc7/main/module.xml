@@ -1,0 +1,10 @@
+<module xmlns="urn:jboss:module:1.1" name="com.oracle.ojdbc7">
+    <resources>
+        <resource-root path="ojdbc7-12.1.0.1.jar"/>
+        <!-- Insert resources here -->
+    </resources>
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="javax.transaction.api"/>
+    </dependencies>
+</module>

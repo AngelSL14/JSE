@@ -1,0 +1,7 @@
+TZ=America/Mexico_City
+MAVEN_MIRROR_URL=http://nexus-repository-manager-cicd.cloudapp.qa.prosa.com.mx/repository/t
+hirdparty/
+JAVA_OPTS_APPEND=-Doracle.jdbc.timezoneAsRegion=false
+-Dsun.net.client.defaultConnectTimeout=180000
+-Dsun.rmi.transport.proxy.connectTimeout=180000 -Dsun.net.client.defaultReadTimeout=180000
+-Dsun.rmi.transport.proxy.readTimeout=180000
